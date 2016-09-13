@@ -78,6 +78,7 @@ public class MainActivityFragment extends Fragment implements SeekBar.OnSeekBarC
         green.setOnSeekBarChangeListener(this);
         alpha.setOnSeekBarChangeListener(this);
 
+        View root2= root;
         return root;
     }
 
